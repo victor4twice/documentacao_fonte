@@ -1,0 +1,19 @@
+PASTA DE FONTES DA EMPRESA
+
+Solte aqui os arquivos de fonte (.ttf, .otf, .woff, .woff2).
+Com o servidor rodando (iniciar.bat), elas aparecem sozinhas na aba "Fontes"
+depois de atualizar a página (F5).
+
+Organização por categoria (opcional):
+  fonts/Script/Allura.ttf      -> categoria "Script"
+  fonts/Serifada/Cinzel.otf    -> categoria "Serifada"
+  fonts/MinhaFonte.ttf         -> categoria "Minhas fontes"
+
+O nome mostrado vem do nome do arquivo:
+  GreatVibes-Regular.ttf  ->  "Great Vibes"
+
+Sem o servidor (abrindo o index.html direto, ou pelo Live Server do VS Code),
+a detecção automática não funciona. Nesse caso, adicione a fonte manualmente
+no arquivo fontes.js, usando  file:"fonts/NomeDoArquivo.ttf".
+
+Use só fontes cujo uso/licença permita a gravação para clientes.
